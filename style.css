@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.burger-menulink {
+  height: 5.2vh;
+  margin-top: 7.2px;
+}
+/* Im using display flex so the elements stands in a line beside eachother.
+ margin: auto; positions the width in the middle of the screen. Align items center makes
+ the items align center relative to the width of the header */
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  margin: 10px;
+}
+/* Im positioning the nav-bar correctly so it resembles Googles.
+ Position: relative; allows me to use the commands up bottom right nad left. */
+.profile-pic {
+  position: relative;
+  left: 92%;
+  border-radius: 50%;
+  height: 4.8vh;
+}
+.burger-menu {
+  position: relative;
+  left: 1080px;
+}
+nav {
+  position: relative;
+  left: 1072px;
+}
+/* im adding display flex to the nav-links because i want them beside eachother. */
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+}
+.nav-link1 {
+  margin: 0 15px 0 0;
+}
+ul li a {
+  color: rgba(0, 0, 0, 0.87);
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+.logo img {
+  height: 92px;
+  width: 272px;
+  text-align: center;
+}
+.logo {
+  padding-top: 47px;
+  position: relative;
+  left: 500px;
+  top: 25px;
+}
+/* Margin: 0 auto; positions the search bar in the middle of the page. outline: none; takes 
+away the blue outline while in focus*/
+.form-control-search {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+  outline: none;
+  margin-top: 40px;
+  padding-left: 45px;
+  padding-right: 60px;
+  font-size: 17px;
+}
+.form-control-search:hover {
+  box-shadow: 0 0 11px #dfe1e5;
+}
+.mglass-pic svg {
+  height: 3vh;
+}
+.mglass-pic {
+  position: relative;
+  bottom: 90px;
+  left: 360px;
+  width: 3vh;
+}
+.button {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  top: 40px;
+  left: 510px;
+}
+.icon svg {
+  height: 5vh;
+}
+.icon svg {
+  position: relative;
+  bottom: 122px;
+  left: 890px;
+  width: 4vh;
+}
+.language {
+  font-size: small;
+  position: relative;
+  left: 590px;
+}
+.bottom-navbar {
+  font-size: 14px;
+  position: relative;
+  top: 220px;
+  font-size: 15px;
+  background: #f2f2f2;
+  line-height: 40px;
+  min-width: 980px;
+  border-top: 1px solid #e4e4e4;
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 50px;
+}
+.bottom-navbar2 {
+  font-size: 14px;
+  position: relative;
+  top: 220px;
+  font-size: 15px;
+  background: #f2f2f2;
+  line-height: 40px;
+  min-width: 980px;
+  border-top: 1px solid #e4e4e4;
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 50p
+  
+}
+.ending {
+  display: flex;
+  list-style: none;
+  position: relative;
+  right: 880px;
+  flex: 2;
+}
+.btm-navlinks {
+  margin-left: 30px;
+  color: rgba(0, 0, 0, 0.54);
+}
